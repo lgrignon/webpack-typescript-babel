@@ -4,7 +4,7 @@ import * as _ from 'lodash';
 
 import { ANSWER } from './modules/constants';
 import SmartClass from './modules/functions';
-import { OtherClass } from './modules/lib';
+import * as lib from './modules/lib';
 
 
 let words: string[] = ['hello', 'world'];
@@ -22,7 +22,4 @@ console.log('et voilà!');
 let instance: SmartClass = new SmartClass();
 instance.doSomethingSmart();
 
-var t: OtherClass = new OtherClass();
-t.justDoIt();
-
-console.log('--- END several modules used and no one hurt ---')
+var t = new lib.OtherClass();
