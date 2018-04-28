@@ -1,4 +1,4 @@
-# webpack 2 + TypeScript 2 + Babel example
+# webpack 3 + TypeScript 2.8 + Babel 6 example
 
 Incrementally builds and bundle your source files + outputs a fully es5 compliant JavaScript code!
 
@@ -6,12 +6,12 @@ Webpack is configured to mutualize common module code in a commons file and vend
 
 ## Prerequisits
 ```
-npm install -g webpack@2.2.1
+yarn global add webpack@3
 ```
 
 ## Build
 ```
-npm install
+yarn
 webpack --progress --watch
 ```
 Some warnings are printed but they're harmless. Check that the `js/index.js` and `js/vendor.js` have correctly been generated.

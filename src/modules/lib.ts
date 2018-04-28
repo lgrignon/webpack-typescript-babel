@@ -1,5 +1,3 @@
-
-
 import * as Constants from 'constants';
 
 export class OtherClass {

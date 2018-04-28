@@ -1,37 +1,43 @@
 {
-  "name": "webpack2-typescript-babel",
-  "author": {
-    "name": "Louis Grignon"
-  },
-  "homepage": "https://github.com/lgrignon",
-  "version": "1.0.0",
-  "description": "webpack 2 + TypeScript 2 + Babel example",
-  "keywords": [
-    "tree shaking",
-    "babel",
-    "typescript",
-    "webpack",
-    "bundling",
-    "javascript",
-    "npm"
-  ],
-  "devDependencies": {
-    "@types/lodash": "^4.14.52",
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
-    "babel-preset-es2015-native-modules": "^6.9.4",
-    "ts-loader": "2.0.1",
-    "typescript": "2.2.1",
-    "webpack": "^2.2.1"
-  },
-  "maintainers": [
-    {
-      "name": "louis",
-      "email": "louis.grignon@protonmail.com"
+    "name": "webpack2-typescript-babel",
+    "author": {
+        "name": "Louis Grignon"
+    },
+    "homepage": "https://github.com/lgrignon",
+    "version": "1.0.0",
+    "description": "webpack 3 + TypeScript 2.8 + Babel example",
+    "license": "Apache-2.0",
+    "keywords": [
+        "tree shaking",
+        "babel",
+        "typescript",
+        "webpack",
+        "bundling",
+        "javascript",
+        "npm"
+    ],
+    "devDependencies": {
+        "@types/lodash": "4.14.52",
+        "babel-cli": "6.10.1",
+        "babel-core": "6.23.1",
+        "babel-loader": "7.1.4",
+        "babel-polyfill": "6.23.0",
+        "babel-preset-env": "1.6.0",
+        "ts-loader": "3.5.0",
+        "typescript": "2.8.3",
+        "fork-ts-checker-webpack-plugin": "^0.4.1",
+        "happypack": "5.0.0",
+        "tslint": "5.9.1",
+        "webpack": "3"
+    },
+    "maintainers": [
+        {
+            "name": "louis",
+            "email": "louis.grignon@protonmail.com"
+        }
+    ],
+    "directories": {},
+    "dependencies": {
+        "lodash": "4.17.4"
     }
-  ],
-  "directories": {},
-  "dependencies": {
-    "lodash": "4.17.4"
-  }
 }
